@@ -1,0 +1,15 @@
+/* CustomDropdown.css */
+
+/* Change background color of the dropdown menu */
+.dropdown-menu {
+  background-color: #f0f0f0;
+}
+
+.btn {
+  color: black;
+}
+
+/* Change background color of dropdown items on hover */
+.dropdown-item:hover {
+  background-color: #f7f7f7; /* Your desired background color */
+}

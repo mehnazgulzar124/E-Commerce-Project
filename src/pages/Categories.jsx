@@ -20,6 +20,8 @@ function Categories() {
     getAllCategories();
   }, [params.category]);
 
+  console.log({ products });
+
   if (!products.length) {
     return <>Loading...</>;
   }

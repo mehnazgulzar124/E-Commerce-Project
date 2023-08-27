@@ -40,7 +40,7 @@ function ProductsByCategories({ data }) {
           variant="secondary"
           id="dropdown-basic"
         />
-        {filteredData.map((item) => (
+        {data.map((item) => (
           <Card
             key={item.id}
             title={item.title}
